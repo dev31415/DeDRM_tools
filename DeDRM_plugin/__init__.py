@@ -5,7 +5,7 @@
 # Copyright © 2008-2020 Apprentice Harper et al.
 
 __license__   = 'GPL v3'
-__version__ = '7.0.3'
+__version__ = '7.0.3.1'
 __docformat__ = 'restructuredtext en'
 
 
