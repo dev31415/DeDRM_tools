@@ -1600,8 +1600,9 @@ class PDFDocument(object):
         #if bookkey[0] != 2:
         #    raise ADEPTError('error decrypting book session key')
         try:
-        	index = bookkey.index(b'\0') + 1
-        	bookkey = bookkey[index:]
+        	#index = bookkey.index(b'\0') + 1
+        	#bookkey = bookkey[index:]
+            pass
         except ValueError:
         	pass
         ebx_V = int_value(param.get('V', 4))
